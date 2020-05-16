@@ -135,5 +135,11 @@
     "presets": [
       "react-app"
     ]
-  }
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "proxy": "https://segmentfault.com"
 }

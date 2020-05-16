@@ -1,0 +1,37 @@
+.app-banner {
+  // overflow: hidden;
+  margin-bottom: 40px;
+  position: relative;
+  width: 100%;
+  background: #009a61;
+  height: 150px;
+
+  .wrap {
+    color: #fff;
+    background-image: url(../assets/banner-bg.svg);
+    background-repeat: no-repeat;
+    background-position: right 15%;
+    background-size: 65%;
+    width: 980px;
+    height: 150px;
+    margin: 0 auto;
+
+    h3 {
+      font-size: 24px;
+      padding: 20px 0;
+    }
+
+    p {
+      font-size: 18px;
+      width: 50%;
+    }
+  }
+
+  .fa {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    opacity: 0.6;
+  }
+}
